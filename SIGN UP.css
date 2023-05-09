@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Maven Pro;
+}
+body{
+    background-color: #ffbe0b;
+}
+.title{
+    text-align: center;
+    background-color: black;
+    color:#ffbe0b ;
+    font-size: 50px;
+}
+.text{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 50px;
+    font-weight: 1000;
+}
+.container{
+    display: flex;
+    color: #ffbe0b;
+    padding-top: 60px;
+    font-size: larger;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    background-color: black;
+    border-color: black;
+    border-width: 10px;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    line-height: 3;
+        
+}
+.signin{
+    align-items: center;
+    text-align: center;
+    font-weight: 1000;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 12px;
+    font-size: larger;
+    color: black;
+    background-color: #ffbe0b;
+}
+.input{
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+}
+input{
+    background-color: #ffbe0b;
+    color: black;
+    font-size: larger;
+    font-weight: 1000;
+    border-color: black;
+    border-radius: 12px;
+    margin-left: 10px;
+}
+:placeholder-shown{
+    margin-left: 10px;
+}
+label{
+    padding-bottom: 15px;
+}
+.signin:hover{
+    cursor: pointer;
+}
